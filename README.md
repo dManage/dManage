@@ -98,23 +98,16 @@ As mentioned above  there are two types of staff logins. The first type are the 
 Well as of now we have switched to java and tomcat as the servlet. The basic things to do are first setting up the servlet. Just download binary, put it somewhere and add to path. Then compile the __.java__ file you want to and copy the __.class__ file to the examples folder under webapp in the tomcat directory. After this make the appropriate changes in the web.xml file. These could be found in the tutorials point site, but I am just mentioning the facts here so that every body is on the same page. For database access we will be using jdbc and __araj, melvin__ can we use twitter bootstrap stylesheet. Please see how we could use it, and somebody study how jdbc can be used to write/read from the database(only jdbc) not through servlet( You can do that  through servlet if you are interested).
 
 # To do as of 13/6/2015
-<<<<<<< HEAD
-=======
 
->>>>>>> 29f8f742734668d64cf5361a6dc38b24e89427ce
 Well as on now, database access has worked, we will be doing two important
 things. First as we have database access, we will be having a table for
 students with all their details, with roll number as primary key. This is just
 a suggestion, usually everything is done with roll number. Now we need to check
 the compatibility/usability of __twitter bootstrap__. This style if possible
 could be used.
-<<<<<<< HEAD
-## An initial test system.
-=======
 
 ## An initial test system.(Phase 1)
 
->>>>>>> 29f8f742734668d64cf5361a6dc38b24e89427ce
 After proper database access has been developed we will go for a development
 model we will develop a simple UI with a login and a password, for every
 student. On logged in  he should be able to see his details, such as name, roll
@@ -142,8 +135,6 @@ functionality is split into smaller classes. Please do accordingly, with
 putting all the functions with database access in one folder, WEBUI in one
 folder and so on.
 
-<<<<<<< HEAD
-=======
 ## Phase 2 things to be done
 
 After the above implementations are done we will adding be features to these. The next set of jobs include creation of a user group known as faculties. They will be also uploade via a __.csv___ or __.xls__ file and will have associated metadata. All of their metadata except designation and  department are editable by the group faculties itself. Every faculty will be associated with department and each department will have an hod. This may not be a separate user. Usually hod has the permission to choose next HOD. On choosing the next HOD, from next login onwards he/she will loose the privileges of HOD. The privileges of HOD include
@@ -160,4 +151,4 @@ The next step would be approval of courses. This is a tricky part. Note that any
 
 ### Electives
 This is a little too much to add now, but the idea is basically the same. Once you have set up the above seciton, there would be an option which chooses, whether it is an elective or it is a core subject. If elective then it can be global or local. Then there is a case for cut off and prerequsities. All these are optional and can be over riden by the course faculty. The electives section has got a detailed paragraph on that. Please have look. With this we wrap the Phase 2. 
->>>>>>> 29f8f742734668d64cf5361a6dc38b24e89427ce
+
