@@ -85,4 +85,40 @@ As mentioned above  there are two types of staff logins. The first type are the 
 
 
 #Tools used
-Well as of now we have switched to java and tomcat as the servlet. The basic things to do are first setting up the servlet. Just download binary, put it somewhere and add to path. Then compile the __.java__ file you want to and copy the __.class__ file to the examples folder under webapp in the tomcat directory. After this make the appropriate changes in the web.xml file. These could be found in the tutorials point site, but I am just mentioning the facts here so that every body is on the same page. For database access we will be using jdbc and __araj, melvin__ can we use twitter bootstrap stylesheet. Please see how we could use it, and somebody study how jdbc can be used to write/read from the database(only jdbc) not through servlet( You can do that  through servlet if you are interested). 
+Well as of now we have switched to java and tomcat as the servlet. The basic things to do are first setting up the servlet. Just download binary, put it somewhere and add to path. Then compile the __.java__ file you want to and copy the __.class__ file to the examples folder under webapp in the tomcat directory. After this make the appropriate changes in the web.xml file. These could be found in the tutorials point site, but I am just mentioning the facts here so that every body is on the same page. For database access we will be using jdbc and __araj, melvin__ can we use twitter bootstrap stylesheet. Please see how we could use it, and somebody study how jdbc can be used to write/read from the database(only jdbc) not through servlet( You can do that  through servlet if you are interested).
+
+# To do as of 13/6/2015
+Well as on now, database access has worked, we will be doing two important
+things. First as we have database access, we will be having a table for
+students with all their details, with roll number as primary key. This is just
+a suggestion, usually everything is done with roll number. Now we need to check
+the compatibility/usability of __twitter bootstrap__. This style if possible
+could be used.
+## An initial test system.
+After proper database access has been developed we will go for a development
+model we will develop a simple UI with a login and a password, for every
+student. On logged in  he should be able to see his details, such as name, roll
+number, branch, semester etc. Note that all these are stored in a database with
+roll number as primary key. With this in mind, generate a random data set and
+input it to the  database. This __.csv__ / __.xls__ file could be uploaded via
+web or root into the database. After this, login should be made for all
+students to access and modify their data. All the above data are fixed. There
+should be a profile information with address/blood group/ other trivial
+informations. 
+
+So we should have the following set of functions.
+* A bulk uploader via command line/web ui 
+* Students should get login after they are added via bulk/batch or single user
+  add facility.
+* After login students should be able to edit some data.
+* An administrator page where students can be deleted or added.
+* Administrator can also remove/add/edit student information and that too all
+  of them.
+* As of now only these, we will modify these later.
+
+So it should contain a number of small programs rather than a huge one, for
+readability and ease of editing. There is also a great deal of ease if the
+functionality is split into smaller classes. Please do accordingly, with
+putting all the functions with database access in one folder, WEBUI in one
+folder and so on.
+
