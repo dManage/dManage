@@ -152,3 +152,6 @@ The next step would be approval of courses. This is a tricky part. Note that any
 ### Electives
 This is a little too much to add now, but the idea is basically the same. Once you have set up the above seciton, there would be an option which chooses, whether it is an elective or it is a core subject. If elective then it can be global or local. Then there is a case for cut off and prerequsities. All these are optional and can be over riden by the course faculty. The electives section has got a detailed paragraph on that. Please have look. With this we wrap the Phase 2. 
 
+#After some thought...
+
+After some thought I decided to change the branch to python django, as it serves, atleast for me a certain purpose. Not that it is in completely aggrement with what I do but rather agress with the whole set up of my current status.
